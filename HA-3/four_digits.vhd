@@ -24,7 +24,7 @@ Port(asc: in string(1 to 1);
 
 a, b, c, d, e, f, g: out std_logic);
 end component;
-constant N : integer := 1000;-- <need to select correct value>
+constant N : integer := 50000000;-- <need to select correct value>
 signal counter: integer := 0;
 signal cycle: integer := 0;
 
