@@ -13,10 +13,7 @@ with open(file, 'r') as f:
         i=i.rstrip()
         l=i.split(' ')
         c+=1
-        if (int(l[1])>100 or int(l[1])<=0) and (int(l[2])>100 or int(l[2])<=0) and c>1000:
-            print('Invalid width/height/no. of gates')
-            condn=False
-            break
+        
         lsth.append(l)
         lstw.append(l)
     lsth.sort(key=lambda x:(int(x[2]), int(x[1])))
