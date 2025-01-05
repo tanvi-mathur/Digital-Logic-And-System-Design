@@ -3,7 +3,11 @@ import random
 import copy
 from itertools import product
 import math
+"""For SW3.py
+python SW3.py input.txt output.txt
+gate x-coordinate y-coordinate delay
 
+pins gate x-coordinate y-coordinate """
 gh={}
 gw={}
 gA={}
