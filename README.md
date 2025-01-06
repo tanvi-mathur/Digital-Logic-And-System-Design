@@ -18,7 +18,7 @@ A4: (In VHDL)
 Implemented Seven segment decoder for 1 and all 4 LED displays,to display a 4-bit number on a 7-segment display on FPGA.
 
 A5: (In VHDL)
-AES decryption operation for 128 bits and 256 bits: Implemented Galois Field Multiplication for Inverse Mixed Columns, Inverse Shift Rows, Inverse SubBytes and Display Unit on FPGA after conversion to ASCII.
+AES decryption operation for 128 bits and 256 bits: Implemented Finite State Machine to integrate Compute unit: Galois Field Multiplication for Inverse Mixed Columns, Inverse Shift Rows, Inverse SubBytes and Display Unit on FPGA after conversion to ASCII, control unit and memory block.
 Also implemented RAM/ROM block to read from and write to a given .coe file.
 
 
